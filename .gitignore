@@ -9,4 +9,4 @@ myapp/node_modules/
 *.tmp
 
 # Mengabaikan file konfigurasi pribadi
-.env
+MyServer/.env
