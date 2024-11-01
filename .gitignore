@@ -1,41 +1,12 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Mengabaikan file log
+*.log
 
-# dependencies
-/myapp/node_modules
-/MyServer/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Mengabaikan direktori node_modules
+MyServer/node_modules/
+myapp/node_modules/
 
-# testing
-/myapp/coverage
+# Mengabaikan file sementara
+*.tmp
 
-# next.js
-/myapp/.next/
-/myapp/out/
-
-# production
-/myapp/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# env files (can opt-in for commiting if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Mengabaikan file konfigurasi pribadi
+.env
